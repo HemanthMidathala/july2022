@@ -6,4 +6,11 @@ then
 	echo $file is have a write permission 
 else
 	echo $file is dont have a write permission
-fi	
+fi
+ 
+if [ -s $file ]
+then
+	echo $file is have a write permission
+else
+	echo $file is dont have a write permission
+fi
